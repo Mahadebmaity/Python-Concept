@@ -1,0 +1,6 @@
+tabulate
+colorama
+pandas
+openpyxl
+reportlab
+pytest

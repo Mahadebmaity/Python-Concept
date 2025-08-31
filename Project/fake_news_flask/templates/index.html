@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fake News Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📰 Fake News Generator</h1>
+
+        {% for news in headlines %}
+            <div class="headline">{{ news }}</div>
+        {% endfor %}
+
+        <div class="refresh">
+            <form action="/">
+                <button type="submit">🔄 Generate New Headlines</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

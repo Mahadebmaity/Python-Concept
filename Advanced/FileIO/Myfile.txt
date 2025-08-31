@@ -1,0 +1,3 @@
+ Hi , this is a write function Hi , this is a append function Hi , this is a append function Hi , this is a append function
+ Hi , this is a append function
+ Hi , this is a append function

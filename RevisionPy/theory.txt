@@ -1,0 +1,10 @@
+Question :: Explain the difference between = and == with examples.
+
+"=" use only assign a value 
+"==" use to check both value are  contain same object
+
+like 
+a = 25 # assing value 25 in a 
+b = a  # assign value of a 
+but a == b # check both object if true return true other wise false return 
+

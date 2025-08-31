@@ -1,0 +1,1 @@
+ Write a program to take multiple lines of user input and store them in user.txt (stop taking input when the user types "stop").
